@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "cutil.h"
+#include "../src/cutil.h"
 
 int test_substring()
 {
