@@ -17,7 +17,7 @@ int test_substring()
 
   if(strcmp(result, "quick") == 0)
   {
-    printf("passed");
+    printf("passed\n");
     return 0; 
   }
 
