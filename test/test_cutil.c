@@ -15,12 +15,12 @@ int test_substring()
     return -1; 
   }
 
-  if(strcmp(result, "quick"))
+  if(strcmp(result, "quick") == 0)
   {
     printf("passed");
     return 0; 
   }
-  printf("failed"); 
+
   return -1; 
 }
 
